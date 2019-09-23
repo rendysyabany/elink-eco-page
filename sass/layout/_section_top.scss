@@ -70,7 +70,7 @@
         }
 
         .slick-next{
-            left: 250px!important;
+            left: 200px!important;
 
             &::before{
                 content: url('../../static/images/icons/ic_arrow_right.png')!important;
@@ -78,8 +78,14 @@
         }
 
         .slick-dots{
-            bottom: 72px !important;
-            padding-left: 180px !important;
+            bottom: 85px !important;
+            right: 465px !important;
+        }
+
+        .slick-dots li button:before{
+            background-color: white;
+            border-radius: 50px;
+            opacity: .50;
         }
 
         .slider-blounds{

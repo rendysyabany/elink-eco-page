@@ -535,12 +535,16 @@ body {
     .section-top .sliders .slick-prev::before {
       content: url("../../static/images/icons/ic_arrow_left.png") !important; }
   .section-top .sliders .slick-next {
-    left: 250px !important; }
+    left: 200px !important; }
     .section-top .sliders .slick-next::before {
       content: url("../../static/images/icons/ic_arrow_right.png") !important; }
   .section-top .sliders .slick-dots {
-    bottom: 72px !important;
-    padding-left: 180px !important; }
+    bottom: 85px !important;
+    right: 465px !important; }
+  .section-top .sliders .slick-dots li button:before {
+    background-color: white;
+    border-radius: 50px;
+    opacity: .50; }
   .section-top .sliders .slider-blounds .slider-item {
     padding: 0 60px 0 60px;
     border-radius: 20px; }
