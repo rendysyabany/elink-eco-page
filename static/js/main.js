@@ -26,4 +26,9 @@ function initMap() {
         document.getElementById('map'), {zoom: 15, center: uluru, disableDefaultUI: true});
     // The marker, positioned at Uluru
     var marker = new google.maps.Marker({position: uluru, map: map});
-  }
+}
+
+window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-148435906-1');
