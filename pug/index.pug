@@ -5,12 +5,89 @@ html(lang="en")
         meta(name="description" content="Any description here ..")
         meta(name="viewport" content="width=device-width, initial-scale=1")
 
-        title Any Title here ..
+        title Ecolink Indoensia
         
-        link(rel="stylesheet" href="css/style.css")
+        link(rel="stylesheet" href="static/css/main.css")
+        link(rel="stylesheet" type="text/css" href="static/css/slick.css")
+        link(rel="stylesheet" type="text/css" href="static/css/slick-theme.css")
+        link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i&display=swap")
+
     body
 
         // Site Container Here ..
-        p Hello world!! Pug Sass Starter Kit
+        .app-container
+            section.section-top#top
+                .header
+                    .header-bounds 
+                        .logo-bounds
+                            img.brand-logo(src="static/images/ecolink_logo.png", alt="brand-logo")
+                        
+                        .menu
+                            ul.menu-bounds
+                                li.menu-item
+                                    a(href="#") Home
+                                li.menu-item
+                                    a(href="#") About Us
+                                li.menu-item
+                                    a(href="#") Products
+                                li.menu-item
+                                    a(href="#") Distributor
+                                li.menu-item
+                                    a(href="#") Contact Us
 
-        script(src="static/js/main.js")
+                .sliders
+                    .slider.slider-blounds
+                        div 
+                            .slider-item
+                                img.__slider.image-item(src="static/images/Slider/img-slide-01.png", alt="brand-logo")
+                        div 
+                            .slider-item
+                                img.__slider.image-item(src="static/images/Slider/img-slide-02.png", alt="brand-logo")
+
+
+            section.products
+                .product-bounds
+                    img.products-image(src="static/images/products.png", alt="product-banner")
+
+
+            section.section-footer
+                .footer-bounds
+                    .company
+                        .logo-bounds
+                            img.brand-logo(src="static/images/footer_logo.png", alt="brand-logo")
+
+                        .addess-bounds
+                            p.title Address
+                            p.content
+                                | Jl. H. R. Rasuna Said Blok C No.22, RT.2/RW.5, Karet Kuningan, Kecamatan Setiabudi, Kota Jakarta Selatan 12940 <br/>
+                                | Email. info@ecolink.id
+
+                    .social-blunds
+                        .icon-bounds
+                            a(href="http://")    
+                                img.brand-logo(src="static/images/icons/ic_facebook.png", alt="facebook")
+                            a(href="http://")    
+                                img.brand-logo(src="static/images/icons/ic_instagram.png", alt="instagram")
+                            a(href="http://")    
+                                img.brand-logo(src="static/images/icons/ic_twitter.png", alt="twitter")
+                        p.title-social Follow our social.
+
+                    #map
+                        a(href="https://goo.gl/maps/A2dmJPfj8c4xej2L9" target="_blank")
+                            img.brand-logo(src="static/images/maps.png", alt="map")
+
+                .clear-bottom
+                        .clear-left
+                            p.copyright Copyright © EcoLink Indonesia 2019. All rights reserved.
+                        .clear-right
+                            a(href="#top")
+                                p.go-top Go to Top
+                                img.go-top-icon(src="static/images/icons/ic_arrowUp_small.png", alt="go to top")
+                         
+
+        script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js")
+        script(src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous")
+        //- script(type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js")
+        script(type="text/javascript" src="static/js/slick.min.js")
+        script(async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmAlmiu7m6NaYT6vsWbRGIaTvrEFHOUf0&callback=initMap")
+        script(src="static/js/main.js") 

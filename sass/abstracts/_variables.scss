@@ -8,7 +8,7 @@
 
 /// Regular font family
 /// @type List
-$text-font-stack: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+$text-font-stack: 'Lato', 'Helvetica', 'Arial', sans-serif !default;
 
 /// Code (monospace) font family
 /// @type List
@@ -17,26 +17,46 @@ $code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono',
 
 
 
+/// @type Color
+/// Gray Tone
+
+$gray-a: #333333 !default;
+$gray-b: #4F4F4F !default;
+$gray-c: #828282 !default;
+$gray-d: #BDBDBD !default;
+$gray-e: #E0E0E0 !default;
+$gray-f: #F2F2F2 !default;
+
+
+/// Green Tone
+
+$gren-a: #3DAE2C !default;
+$gren-b: #71C465 !default;
+$gren-c: #B8E1B2 !default;
+
+
+/// Purple Tone
+
+$purple-a: #592C82 !default;
+$purple-b: #8665A4 !default;
+$purple-c: #C2B2D1 !default;
+$purple-d: #E3DCEA !default;
+
+
+
 
 /// Copy text color
 /// @type Color
-$text-color: rgb(34, 34, 34) !default;
+$text-color: $gray-b !default;
 
 /// Main brand color
 /// @type Color
-$brand-color: rgb(229, 0, 80) !default;
+$brand-color: $gren-a !default;
 
-/// Light grey
+/// Reset color
 /// @type Color
-$light-grey: rgb(237, 237, 237) !default;
+$reset-color: #FFFFFF !default;
 
-/// Medium grey
-/// @type Color
-$mid-grey: rgb(153, 153, 153) !default;
-
-/// Dark grey
-/// @type Color
-$dark-grey: rgb(68, 68, 68) !default;
 
 
 

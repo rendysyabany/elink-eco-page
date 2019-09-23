@@ -1,0 +1,107 @@
+section.section-footer{
+    margin-top: 60px;
+
+    .footer-bounds{
+        background-color: $purple-b;
+        width: 100%;
+        height: 580px;
+        padding: 60px 60px 60px 60px;
+
+        .company{
+            width: 70%;
+            float: left;
+
+            .logo-bounds{
+                float: left;
+                padding-right: 40px;
+    
+                img.brand-logo{
+                    height: 100px;
+                    width: auto;
+                }
+            }
+    
+            .addess-bounds{
+                color: $reset-color;
+                margin-top: -15px;
+    
+                p.title{
+                    font-size: 18px;
+                    line-height: 26px;
+    
+                }
+                p.content{
+                    font-size: 14px;
+                    line-height: 22px;
+                    margin-top: -8px;
+                    
+                }
+            }
+        }
+
+        .social-blunds{
+            float: right;
+            margin-bottom: 40px;
+
+            .icon-bounds{
+                float: right;
+                margin-top: -10px;
+
+                img.brand-logo{
+
+                }
+            }
+            p.title-social{
+                color: $reset-color;
+                font-size: 32px;
+                line-height: 40px;
+                margin-top: 50px;
+                
+            }
+        }
+
+        #map{
+            height: 300px;
+            width: 100%;
+            border-radius: 20px;
+            box-shadow: 30px 40px 80px 0px #00000025;
+            overflow: hidden;
+        }
+    }
+
+    .clear-bottom{
+        width: 100%;
+        height: 80px;
+        background-color: $purple-a;
+        color: $reset-color;
+        padding: 0px 60px 00px 60px;
+
+        .clear-left{
+            width: 50%;
+            display: inline-block;
+
+            p.copyright{
+                margin-top: 28px;
+                font-size: 14px;
+                line-height: 22px;
+            }
+        }
+
+        .clear-right{
+            float: right;
+            margin-top: 27px;
+
+            a{
+                text-decoration: none;
+                display: table;
+
+                .go-top{
+                    display: table-cell;
+                    padding-right: 15px;
+                    margin: -3px 20px 0 0;
+                    color: $reset-color;
+                }
+            }
+        }
+    }
+}

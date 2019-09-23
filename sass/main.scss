@@ -20,7 +20,10 @@
 // 4. Layout-related sections
 @import
   'layout/header',
-  'layout/footer';
+  'layout/footer',
+  'layout/section_top',
+  'layout/section_products.scss',
+  'layout/section_footer';
 
 // 5. Components
 @import
